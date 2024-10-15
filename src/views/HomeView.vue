@@ -1,18 +1,20 @@
 <template>
   <div class="home">
     <HeaderMiruku/>
+    <CarouselHomeMiruku/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
 import HeaderMiruku from '@/components/HeaderMiruku.vue';
+import CarouselHomeMiruku from '@/components/CarouselHomeMiruku.vue';
 
 export default {
   name: 'HomeView',
   components: {
-    HeaderMiruku
+    HeaderMiruku,
+    CarouselHomeMiruku
   }
 }
 </script>
